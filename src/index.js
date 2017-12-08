@@ -1,6 +1,9 @@
+import dotenv from 'dotenv'
 import express from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
+
+const config = dotenv.config()
 
 const app = express()
 
