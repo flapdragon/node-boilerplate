@@ -46,6 +46,7 @@
     "nodemon": "^1.12.5"
   },
   "dependencies": {
+    "bluebird": "^3.5.1",
     "compression": "^1.7.1",
     "cors": "^2.8.4",
     "express": "^4.16.2",

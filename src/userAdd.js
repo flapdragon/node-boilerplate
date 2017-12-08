@@ -9,6 +9,7 @@ const person = new User({
   firstName: 'Noora',
   lastName: 'Riku'
 });
+
 // Save
 person.save(function(err) {
   if (err) throw err
