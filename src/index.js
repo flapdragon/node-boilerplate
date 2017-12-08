@@ -2,9 +2,8 @@ import express from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
 
-import AddUser from './userAdd'
-
 // AddUser()
+import AddUser from './userAdd'
 
 const app = express()
 

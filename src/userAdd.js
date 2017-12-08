@@ -1,5 +1,7 @@
+import dotenv from 'dotenv'
+const config = dotenv.config()
 import mongoose from 'mongoose'
-mongoose.connect('mongodb://localhost/test', { useMongoClient: true })
+mongoose.connect(process.env.DB_HOST, { useMongoClient: true })
 mongoose.Promise = require('bluebird')
 
 import User from './userSchema'
